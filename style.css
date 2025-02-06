@@ -1,0 +1,92 @@
+.gradient-background {
+    background: linear-gradient(#7AB2D3, #B9E5E8, #DFF2EB);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+.gradient-background2 {
+    background: linear-gradient( #DFF2EB, #B9E5E8, #7AB2D3);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+.center-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+  }
+  
+.resumeimg{
+    margin-top: 20px;
+    border-radius: 50%;
+    border: #B9E5E8 solid 2px;
+}
+.gridd{
+    display: inline-block;
+}
+.myproj{
+    margin-top: 20px;
+}
+.contact{
+    margin-top: 100px;
+}
+.line-spacing {
+    line-height: 1.5; 
+}
+#subtitle{
+    margin-top: 100px;
+    color: #0c76b3;
+    
+}
+.parent {
+    display: grid
+;
+    grid-template-columns: 0.7fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 40px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+.bottom-container {
+
+    padding: 50px 0 20px;
+}
+.footer-link{
+    display: inline-block;
+    justify-content: space-between;
+
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
